@@ -9,3 +9,11 @@ cd ~/.vim/bundle
 git clone https://github.com/scrooloose/nerdtree.git
 
 echo config nerdtree done.
+
+curdir=$(cd `dirname $0`;pwd)
+ln $curdir/vimrc ~/.vimrc
+ln $curdir/screenrc ~/.screenrc
+ln $curdir/profile ~/.profile
+source ~/.profile
+
+echo config vimrc screenrc profile done.
