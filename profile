@@ -10,7 +10,6 @@ fi
 export PATH=/Applications/Xcode.app/Contents/Developer/usr/bin:$PATH
 export EDITOR=vim
 export DEVELOPER_DIR='/Applications/Xcode.app/Contents/Developer'
-export ARCHIVEBACKUP_DIR="/Users/huji/Desktop/baidumap_archieve"
 
 
 ##

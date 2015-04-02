@@ -1,4 +1,3 @@
-call pathogen#infect()
 " Configuration file for vim
 set modelines=0		" CVE-2007-2438
 
